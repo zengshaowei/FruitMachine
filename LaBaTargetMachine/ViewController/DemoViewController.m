@@ -30,8 +30,16 @@
     self = [super initWithCoder:aDecoder];
     if (self) {
         _slotIcons = [NSArray arrayWithObjects:
-                      [UIImage imageNamed:@"Doraemon"], [UIImage imageNamed:@"Mario"], [UIImage imageNamed:@"Nobi Nobita"],
-                      [UIImage imageNamed:@"Batman"],
+                      [UIImage imageNamed:@"Bell-icon"],
+                      [UIImage imageNamed:@"Cherry-icon"],
+                      [UIImage imageNamed:@"Chip-icon"],
+                      [UIImage imageNamed:@"Coin-icon"],
+                      [UIImage imageNamed:@"Dice-icon"],
+                      [UIImage imageNamed:@"Gem-icon"],
+                      [UIImage imageNamed:@"Lemon-icon"],
+                      [UIImage imageNamed:@"Lucky-7-icon"],
+                      [UIImage imageNamed:@"Melon-icon"],
+                      [UIImage imageNamed:@"Orange-icon"],
                       nil];
     }
     return self;
@@ -60,6 +68,8 @@
     
     UIScrollView *scrView = [[UIScrollView alloc]initWithFrame:self.view.bounds];
     scrView.contentSize = CGSizeMake(ScreenW,iPhoneHeightSize(bgImg.size.height/2));
+    //scrView.delaysContentTouches =  YES;
+    scrView.canCancelContentTouches = NO;
     [self.view addSubview:scrView];
     
     _slotMachine = [[ZCSlotMachine alloc] initWithFrame:CGRectMake(0, 0, ScreenW - 80, 193)];

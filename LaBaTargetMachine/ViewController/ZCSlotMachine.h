@@ -1,8 +1,6 @@
 
 #import <UIKit/UIKit.h>
-
 #pragma mark - ZCSlotMachine Delegate
-
 @class ZCSlotMachine;
 
 @protocol ZCSlotMachineDelegate <NSObject>
@@ -49,8 +47,4 @@
 
 @end
 
-@interface YYBook : NSObject
-@property (nonatomic, copy) NSString *name;
-@property (nonatomic, assign) uint64_t pages;
-@property (nonatomic, strong) NSDate *publishDate;
-@end
+

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		362AB57C1DB9ABDE00B07789 /* Lucky-7-icon@2.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AB5791DB9ABDE00B07789 /* Lucky-7-icon@2.png */; };
+		362AB57D1DB9ABDE00B07789 /* Melon-icon@2.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AB57A1DB9ABDE00B07789 /* Melon-icon@2.png */; };
+		362AB57E1DB9ABDE00B07789 /* Orange-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AB57B1DB9ABDE00B07789 /* Orange-icon@2x.png */; };
+		362AB5861DB9ABE700B07789 /* Bell-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AB57F1DB9ABE700B07789 /* Bell-icon@2x.png */; };
+		362AB5871DB9ABE700B07789 /* Cherry-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AB5801DB9ABE700B07789 /* Cherry-icon@2x.png */; };
+		362AB5881DB9ABE700B07789 /* Chip-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AB5811DB9ABE700B07789 /* Chip-icon@2x.png */; };
+		362AB5891DB9ABE700B07789 /* Coin-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AB5821DB9ABE700B07789 /* Coin-icon@2x.png */; };
+		362AB58A1DB9ABE700B07789 /* Dice-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AB5831DB9ABE700B07789 /* Dice-icon@2x.png */; };
+		362AB58B1DB9ABE700B07789 /* Gem-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AB5841DB9ABE700B07789 /* Gem-icon@2x.png */; };
+		362AB58C1DB9ABE700B07789 /* Lemon-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AB5851DB9ABE700B07789 /* Lemon-icon@2x.png */; };
 		3638EFDE1DB45E1C003BD7BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3638EFDD1DB45E1C003BD7BA /* main.m */; };
 		3638EFE11DB45E1C003BD7BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3638EFE01DB45E1C003BD7BA /* AppDelegate.m */; };
 		3638EFE71DB45E1C003BD7BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3638EFE51DB45E1C003BD7BA /* Main.storyboard */; };
@@ -47,6 +57,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		362AB5791DB9ABDE00B07789 /* Lucky-7-icon@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lucky-7-icon@2.png"; sourceTree = "<group>"; };
+		362AB57A1DB9ABDE00B07789 /* Melon-icon@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Melon-icon@2.png"; sourceTree = "<group>"; };
+		362AB57B1DB9ABDE00B07789 /* Orange-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Orange-icon@2x.png"; sourceTree = "<group>"; };
+		362AB57F1DB9ABE700B07789 /* Bell-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bell-icon@2x.png"; sourceTree = "<group>"; };
+		362AB5801DB9ABE700B07789 /* Cherry-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cherry-icon@2x.png"; sourceTree = "<group>"; };
+		362AB5811DB9ABE700B07789 /* Chip-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chip-icon@2x.png"; sourceTree = "<group>"; };
+		362AB5821DB9ABE700B07789 /* Coin-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Coin-icon@2x.png"; sourceTree = "<group>"; };
+		362AB5831DB9ABE700B07789 /* Dice-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dice-icon@2x.png"; sourceTree = "<group>"; };
+		362AB5841DB9ABE700B07789 /* Gem-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gem-icon@2x.png"; sourceTree = "<group>"; };
+		362AB5851DB9ABE700B07789 /* Lemon-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lemon-icon@2x.png"; sourceTree = "<group>"; };
 		3638EFD91DB45E1C003BD7BA /* LaBaTargetMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaBaTargetMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3638EFDD1DB45E1C003BD7BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3638EFDF1DB45E1C003BD7BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -200,6 +220,16 @@
 				36E491EA1DB61E19008EBF8D /* lottery_btn_go_up.png */,
 				36E491EB1DB61E19008EBF8D /* lottery_reward.png */,
 				365655A61DB7182D00424643 /* lottery_rule.png */,
+				362AB5791DB9ABDE00B07789 /* Lucky-7-icon@2.png */,
+				362AB57A1DB9ABDE00B07789 /* Melon-icon@2.png */,
+				362AB57B1DB9ABDE00B07789 /* Orange-icon@2x.png */,
+				362AB57F1DB9ABE700B07789 /* Bell-icon@2x.png */,
+				362AB5801DB9ABE700B07789 /* Cherry-icon@2x.png */,
+				362AB5811DB9ABE700B07789 /* Chip-icon@2x.png */,
+				362AB5821DB9ABE700B07789 /* Coin-icon@2x.png */,
+				362AB5831DB9ABE700B07789 /* Dice-icon@2x.png */,
+				362AB5841DB9ABE700B07789 /* Gem-icon@2x.png */,
+				362AB5851DB9ABE700B07789 /* Lemon-icon@2x.png */,
 				365655AC1DB74E4000424643 /* lottery_music1.mp3 */,
 			);
 			path = lotteryImage;
@@ -263,8 +293,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362AB57D1DB9ABDE00B07789 /* Melon-icon@2.png in Resources */,
 				36E491F21DB61E19008EBF8D /* lotter_btn_share_down.png in Resources */,
+				362AB58C1DB9ABE700B07789 /* Lemon-icon@2x.png in Resources */,
 				3638F0071DB45EEC003BD7BA /* SlotMachineBackground@2x.png in Resources */,
+				362AB5861DB9ABE700B07789 /* Bell-icon@2x.png in Resources */,
 				3638F0041DB45EEC003BD7BA /* Doraemon@2x.png in Resources */,
 				36E491F61DB61E19008EBF8D /* lottery_btn_go_up.png in Resources */,
 				365655AD1DB74E4000424643 /* lottery_music1.mp3 in Resources */,
@@ -274,13 +307,17 @@
 				3638F0031DB45EEC003BD7BA /* Batman@2x.png in Resources */,
 				36E491EE1DB61E19008EBF8D /* lotter_btn_music_down.png in Resources */,
 				3638F00A1DB45EEC003BD7BA /* StartBtn_N@2x.png in Resources */,
+				362AB5881DB9ABE700B07789 /* Chip-icon@2x.png in Resources */,
+				362AB58A1DB9ABE700B07789 /* Dice-icon@2x.png in Resources */,
 				36E491F51DB61E19008EBF8D /* lottery_btn_go_down.png in Resources */,
 				36E491F41DB61E19008EBF8D /* lottery_btn_cancel.png in Resources */,
 				36E491ED1DB61E19008EBF8D /* lotter_bg.png in Resources */,
 				36CEB83E1DB75DBF003D0D7A /* lotter_btn_music_down1.png in Resources */,
 				36E491F71DB61E19008EBF8D /* lottery_reward.png in Resources */,
+				362AB5871DB9ABE700B07789 /* Cherry-icon@2x.png in Resources */,
 				3638F0051DB45EEC003BD7BA /* Mario@2x.png in Resources */,
 				3638F0061DB45EEC003BD7BA /* Nobi Nobita@2x.png in Resources */,
+				362AB57E1DB9ABDE00B07789 /* Orange-icon@2x.png in Resources */,
 				36E491F31DB61E19008EBF8D /* lotter_btn_share_up.png in Resources */,
 				36E491F11DB61E19008EBF8D /* lotter_btn_rule.png in Resources */,
 				3638EFE91DB45E1C003BD7BA /* Assets.xcassets in Resources */,
@@ -288,7 +325,10 @@
 				36E491F01DB61E19008EBF8D /* lotter_btn_reward.png in Resources */,
 				3638EFE71DB45E1C003BD7BA /* Main.storyboard in Resources */,
 				3638F0091DB45EEC003BD7BA /* StartBtn_H@2x.png in Resources */,
+				362AB58B1DB9ABE700B07789 /* Gem-icon@2x.png in Resources */,
+				362AB57C1DB9ABDE00B07789 /* Lucky-7-icon@2.png in Resources */,
 				36E491EF1DB61E19008EBF8D /* lotter_btn_music_up.png in Resources */,
+				362AB5891DB9ABE700B07789 /* Coin-icon@2x.png in Resources */,
 				365655AB1DB749A500424643 /* lotter_btn_music_up1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

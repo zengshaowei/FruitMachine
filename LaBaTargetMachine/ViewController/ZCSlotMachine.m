@@ -39,10 +39,6 @@ static const NSUInteger kMinTurn = 6;
         [self addSubview:_backgroundImageView];
         
         _contentView = [[UIView alloc] initWithFrame:frame];
-#if SHOW_BORDER
-        _contentView.layer.borderColor = [UIColor blueColor].CGColor;
-        _contentView.layer.borderWidth = 1;
-#endif
         
         [self addSubview:_contentView];
         
@@ -134,10 +130,7 @@ static const NSUInteger kMinTurn = 6;
             
             CALayer *slotScrollLayer = [[CALayer alloc] init];
             slotScrollLayer.frame = CGRectMake(0, 0, slotWidth, _contentView.frame.size.height);
-#if SHOW_BORDER
-            slotScrollLayer.borderColor = [UIColor greenColor].CGColor;
-            slotScrollLayer.borderWidth = 1;
-#endif
+            
             [slotContainerLayer addSublayer:slotScrollLayer];
             
             [_contentView.layer addSublayer:slotContainerLayer];
@@ -165,11 +158,7 @@ static const NSUInteger kMinTurn = 6;
                 iconImageLayer.contents = (id)iconImage.CGImage;
                 iconImageLayer.contentsScale = iconImage.scale;
                 iconImageLayer.contentsGravity = kCAGravityCenter;
-#if SHOW_BORDER
-                iconImageLayer.borderColor = [UIColor redColor].CGColor;
-                iconImageLayer.borderWidth = 1;
-#endif
-                
+
                 [slotScrollLayer addSublayer:iconImageLayer];
             }
         }
@@ -194,13 +183,11 @@ static const NSUInteger kMinTurn = 6;
         NSArray *slotIcons = [self.dataSource iconsForSlotsInSlotMachine:self];
         NSUInteger slotIconsCount = [slotIcons count];
         
-        
         __block NSMutableArray *completePositionArray = [NSMutableArray array];
         
         [CATransaction begin];
         [CATransaction setAnimationTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
         [CATransaction setDisableActions:YES];
-        
         [CATransaction setCompletionBlock:^{
             isSliding = NO;
             NSLog(@"动画结束");
@@ -242,6 +229,13 @@ static const NSUInteger kMinTurn = 6;
             
             _currentSlotResults = self.slotResults;
             completePositionArray = [NSMutableArray array];
+            
+            NSString *str = @"";
+            for (NSNumber *value in self.slotResults) {
+                str = [str stringByAppendingString:value.description];
+            }
+            UIAlertView *alterView = [[UIAlertView alloc]initWithTitle:@"抽奖结果" message:str delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+            [alterView show];
         }];
         
         static NSString * const keyPath = @"position.y";
@@ -260,14 +254,14 @@ static const NSUInteger kMinTurn = 6;
             slideAnimation.fillMode = kCAFillModeForwards;
             slideAnimation.duration = howManyUnit * self.singleUnitDuration;
             slideAnimation.toValue = [NSNumber numberWithFloat:slotScrollLayer.position.y + slideY ];
+            NSLog(@"slotScrollLayer.position.y + slideY~%f",slotScrollLayer.position.y + slideY);
             slideAnimation.removedOnCompletion = NO;
             //slideAnimation.repeatDuration = 1;
             [slotScrollLayer addAnimation:slideAnimation forKey:@"slideAnimation"];
             //NSLog(@"%@",slotScrollLayer.animationKeys);
             [completePositionArray addObject:slideAnimation.toValue];
         }
-        
-        //[CATransaction commit];
+        [CATransaction commit];
     }
 }
 
